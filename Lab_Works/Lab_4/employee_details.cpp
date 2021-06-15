@@ -19,7 +19,7 @@ class Employee{
   }
 
   void display(){
-    cout<<"Name:    \t"<<name<<"\nId number:\t"<<id<<"\nsalary:\t"<<salary<<endl;
+    cout<<name<<"\t\t"<<id<<"\t"<<salary<<endl;
   }
 };
 int main(){
@@ -27,6 +27,7 @@ int main(){
   for(int i=0;i<5;i++){
     e[i].input();
   }
+  cout<<"Name:  \t"<<"Id number:\t"<<"Salary"<<endl;
   for(int i=0;i<5;i++){
     e[i].display();
   }
