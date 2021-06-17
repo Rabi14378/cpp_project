@@ -36,5 +36,6 @@ int main(){
   s2.input();
   s1.display();
   s2.display();
+  system("pause");
   return 0;
 }
