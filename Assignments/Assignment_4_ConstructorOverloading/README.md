@@ -2,7 +2,10 @@
 ___
 ## Constructor Overloading
 ***
+The constructor overloading can be defined as the concept of having more than one constructor with different parameters so that every constructor can perform a different task.
+
 In C++, We can have more than one constructor in a class with same name, as long as each has a different list of arguments.This concept is known as Constructor Overloading.
+![](https://www.scientecheasy.com/wp-content/uploads/2018/07/java-constructor-overloading.png)
 
 - Overloaded constructors essentially have the same name (name of the class) and different number of arguments.
 
