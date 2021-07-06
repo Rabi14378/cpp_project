@@ -1,11 +1,11 @@
 #include<iostream>
 using namespace std;
 
-class Prefix {
+class Postfix {
     int a,b,c;
 
   public:
-    Prefix(int a,int b,int c){
+    Postfix(int a,int b,int c){
       this->a=a;
       this->b=b;
       this->c=c;
@@ -24,7 +24,7 @@ class Prefix {
 };
 
 int main(){
-  Prefix p(1,2,3);
+  Postfix p(1,2,3);
   p++;
   p.display();
   return 0;
