@@ -26,8 +26,9 @@ Distance::Distance(int feet, int inch){
 
 Distance Distance::operator+(Distance d1){
   Distance temp;
-  temp.feet=this->feet+d1.feet;
   temp.inch=this->inch+d1.inch;
+  temp.feet=this->feet+d1.feet+(temp.inch/12);
+  temp.inch%=12;
   return temp;
 }
 
@@ -36,7 +37,7 @@ void Distance::display(){
 }
 
 int main(){
-  Distance d1(10,3),d2(2,4),d3;
+  Distance d1(10,3),d2(2,10),d3;
   d3=d1+d2;
   d3.display();
   return 0;
