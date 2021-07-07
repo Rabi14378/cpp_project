@@ -26,8 +26,9 @@ Distance::Distance(int feet, int inch){
 
 Distance operator+(Distance &d1,Distance &d2){
   Distance temp;
-  temp.feet=d1.feet+d2.feet;
   temp.inch=d1.inch+d2.inch;
+  temp.feet=d1.feet+d2.feet+(temp.inch/12);
+  temp.inch%=12;
   return temp;
 }
 
