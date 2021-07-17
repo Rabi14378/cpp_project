@@ -18,7 +18,7 @@ class Base {
       cout<<"This is in abstract class"<<endl;
     }
 
-    ~Base(){
+    virtual ~Base(){
       cout<<"Destructor of base class is called"<<endl;
     }
 };
@@ -45,7 +45,7 @@ class Derived:public Base {
 };
 
 int main(){
-  Derived *d=new Derived;
+  Base *d=new Derived;
   d->print();
   d->display();
   delete d;
