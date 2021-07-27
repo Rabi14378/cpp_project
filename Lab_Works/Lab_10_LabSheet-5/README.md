@@ -44,7 +44,7 @@ Syntax:
  
   * for pre increment 
  
-  * for post increment
+  * for post increment 
 
 
 * Write a program to implement vector addition using operator overloading
