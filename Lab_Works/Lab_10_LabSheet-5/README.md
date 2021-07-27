@@ -26,7 +26,7 @@ ___
 
 ## Operator Overloading:
 
-### It is a mechanism that provides the operators a special meaning certain usage
+### It is a mechanism that provides the operators a special meaning certain usage.
 
 ~~~c++
 Syntax:
