@@ -11,7 +11,7 @@ class Stack {
         top=-1;
     }
     void push (T data){
-      if(top!=20)
+      if(top!=3)
         stack[++top]=data;
       else
         throw Full();
